@@ -25,7 +25,7 @@
 }
 
 @keyframes move {
-  form {
+  from {
     transform: translateY(-15px);
   }
   to {
@@ -48,5 +48,6 @@
   outline: none;
   color: #bbb;
   border: 3px solid #bbb;
+  font-size: 20px;
   font-weight: bold;
 }

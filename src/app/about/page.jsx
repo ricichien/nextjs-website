@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import Button from "../../components/Button/Button";
+import Button from "@/components/Button/Button";
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
-          <h1 className={styles.title}>Who are we?</h1>
+          <h1 className={styles.title}>Who Are We?</h1>
           <p className={styles.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             quae dolor, optio voluptatibus magnam iure esse tempora beatae. A
@@ -39,7 +39,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.item}>
-          <h1 className={styles.title}>Who are we?</h1>
+          <h1 className={styles.title}>What We Do?</h1>
           <p className={styles.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             quae dolor, optio voluptatibus magnam iure esse tempora beatae, a
